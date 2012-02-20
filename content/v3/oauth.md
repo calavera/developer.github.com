@@ -63,8 +63,8 @@ code
 
 ### Response
 
-access\_token
-: _Required_ **string** - OAuth access token.
+<%= header 200 %>
+<%= json :access_token %>
 
 ### 3. Use the access token to access the API
 
